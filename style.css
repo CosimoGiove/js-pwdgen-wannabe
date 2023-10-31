@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    font-size: 30px;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(144, 224, 193);
+    animation:  sfondo 3s infinite ;
+   
+}
+.sfondo{
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    filter: blur(10px);
+}
+
+#nome,#cognome,#colorepreferito{
+    margin-top: 30px;
+}
+
+.contenitore{
+    width: 300px;
+    margin: 150px auto;
+    padding: 20px;
+    background-color: rgba(192, 197, 190, 0.3);
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px black;
+    animation: card  3s infinite;
+}
+
+@keyframes card {
+    0%{
+        box-shadow: 2px 2px 2px 2px black;
+    }
+
+    50%{
+        box-shadow: 2px 2px 2px 2px yellow;
+    }
+
+    70%{
+        box-shadow: 2px 2px 2px 2px red;
+    }
+
+    90%{
+        box-shadow: 2px 2px 2px 2px blue;
+    }
+    
+}
