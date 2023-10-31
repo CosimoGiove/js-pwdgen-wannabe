@@ -32,6 +32,8 @@ console.log(color.innerHTML)
 
 password.innerHTML += NomeInput + CognomeInput + casuale
 
+console.log(password.innerHTML)
+
 
 
 
