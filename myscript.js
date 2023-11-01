@@ -30,7 +30,7 @@ console.log(cognome.innerHTML)
 color.innerHTML+= ColoreInput
 console.log(color.innerHTML)
 
-password.innerHTML += NomeInput + CognomeInput + casuale
+password.innerHTML += NomeInput + CognomeInput + ColoreInput + casuale
 
 console.log(password.innerHTML)
 
